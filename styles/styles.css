@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    float: left;
+    margin-left: 10px;
+}
+nav a {
+    text-decoration: none;
+}
+
+/* section.us > div.container {
+    background-color: blue
+} */
