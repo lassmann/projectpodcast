@@ -1,18 +1,25 @@
 body {
+    font-family: 'IBM Plex Mono', monospace;
     margin: 0;
 }
 
-body button {
-    
+.header-container {
+    height: 36px;
+    background-color: #D0CEDC;
+    padding: 22px 100px;
 }
 
-.logo {
+.header-logo {
     float: left;
+    height: 36px;
+    /* padding: 22px 0; */
 }
 
 nav {
     float: right;
+    text-transform: uppercase;
 }
+
 
 header::after {
     content: '';
