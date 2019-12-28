@@ -93,6 +93,10 @@ section.home div.paragraph {
 }
 
 /* section episodes */
+section.episodes {
+    background: linear-gradient(90deg, rgba(0,0,163,1) 35%, rgba(0,0,255,1) 100%);
+}
+
 section.episodes div.container {
     padding: 0 100px;
 }
@@ -130,6 +134,7 @@ section.us div.text-container {
 section.guests div.guests-container {
     display: flex;
 }
+
 section.guests h2 {
     padding-left: 200px;
 }
@@ -138,7 +143,42 @@ section.guests img.image {
     width: 480px
 }
 
+/* section subjects */
+section.subjects h2 {
+    font-weight: normal;
+    padding-left: 200px;
+}
+
+section.subjects div.container {
+    margin-bottom: 50px;
+}
+
+section.subjects div.row-container {
+    padding: 0 200px;
+    display: flex;
+}
+
+section.subjects div.image-container {
+    text-align: center;
+}
+
+section.subjects div.item {
+    height: 130px;
+    width: 260px;
+}
+
+section.subjects p.title-image {
+    width: 220px;
+    height: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
 /* section news */
+section.news {
+    background: linear-gradient(90deg, rgba(0,0,163,1) 35%, rgba(0,0,255,1) 100%);
+}
+
 section.news div.container-button {
     width: 345px
 }
