@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
     <title>NicoCast</title>
 </head>
@@ -24,24 +25,24 @@
         </div>
     </header>
     <section class="home">
-        <div class="containere">
+        <div class="container">
             <div>
-                <h1>Hello <span>world</span> pale blue dot</h1>
+                <h1 class="title">Hello <span class="line-through">world</span> pale blue dot</h1>
             </div>
-            <div>
+            <div class="paragraph">
                 <p>
                     El portal de podcast que explora el mundo de la programacion y
                     la tecnologia. Nuevos episodios, todos los jueves cada 15 dias.
                 </p>
             </div>
-            <div>
-                <button>CONOCE MAS</button>
+            <div class="container-button">
+                <button class="button">CONOCE MAS</button>
             </div>
         </div>
     </section>
     <section class="episodes">
         <div>
-            <h1>Episodios</h1>
+            <h2 class="title">Episodios</h2>
             <div>
                 <div>
                     <iframe src="https://open.spotify.com/embed-podcast/episode/5PG1bOTSmdZ2GwQJdBry0w" width="100%"
@@ -66,7 +67,7 @@
         <div class="container">
             <img src="images/phone.png" alt="phone">
             <div>
-                <h1>De donde venimos</h1>
+                <h2 class="title"> De donde venimos</h2>
                 <div>
                     Our posturings, our imagined self-importance, the delusion that we have some privileged position in
                     the Universe, are challenged by this point of pale light.
@@ -78,7 +79,7 @@
     </section>
     <section class="guests">
         <div class="container">
-            <h1>Invitadas/os especiales</h1>
+            <h2 class="title">Invitadas/os estelares</h2>
             <div>
                 <div><img src="images/grace-hopper.png" alt=""></div>
                 <div><img src="images/Katie-Bouman.png" alt=""></div>
@@ -92,7 +93,7 @@
     </section>
     <section class="subjects">
         <div class="container">
-            <h1>Algunos de nuestros temas</h1>
+            <h2 class="title">Algunos de nuestros temas</h2>
             <div class="row">
                 <div><img src="images/icon1.svg" alt="">
                     <p>Trabajo remoto</p>
@@ -112,7 +113,9 @@
     <section class="news">
         <div class="container">
             <div>Queres las ultimas novedades?</div>
-            <div><button>Escucha los episodios</button></div>
+            <div class="container-button">
+                <button class="button">Escucha los episodios</button>
+            </div>
         </div>
     </section>
 

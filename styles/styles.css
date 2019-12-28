@@ -2,6 +2,16 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     margin: 0;
 }
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+.line-through {
+    text-decoration: line-through;
+}
 
 .header-container {
     height: 36px;
@@ -39,6 +49,40 @@ nav a {
     text-decoration: none;
 }
 
-/* section.us > div.container {
-    background-color: blue
-} */
+.title {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.button {
+    background-color: #00F3BB;
+    height: 56px;
+    width: 100%;
+    border: none;
+}
+
+/* sections */
+
+section.home div.container {
+    padding-left: 200px;
+}
+
+section.home h1.title {
+    margin: 0;
+}
+
+section.home h1.title {
+    font-weight: normal;
+}
+
+section.home div.container-button {
+    width: 226px
+}
+
+section.home div.paragraph {
+    width: 628px;
+    font-size: 16px;
+}
+
+section.news div.container-button {
+    width: 345px
+}
