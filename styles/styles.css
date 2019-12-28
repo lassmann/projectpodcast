@@ -15,21 +15,20 @@ h2 {
 
 .header-container {
     height: 36px;
-    background-color: #D0CEDC;
     padding: 22px 100px;
 }
 
 .header-logo {
     float: left;
     height: 36px;
-    /* padding: 22px 0; */
 }
 
 nav {
     float: right;
     text-transform: uppercase;
+    position: relative;
+    top: 5px;
 }
-
 
 header::after {
     content: '';
@@ -43,10 +42,16 @@ nav ul {
 }
 nav li {
     float: left;
-    margin-left: 10px;
+    margin-right: 48px;
 }
+nav li:last-child {
+    margin-right: 0;
+}
+
 nav a {
     text-decoration: none;
+    font-size: 16px;
+    color: #060A24;
 }
 
 .title {
@@ -58,12 +63,15 @@ nav a {
     height: 56px;
     width: 100%;
     border: none;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
-/* sections */
+/* section home */
 
 section.home div.container {
     padding-left: 200px;
+    margin-top: 120px;
 }
 
 section.home h1.title {
@@ -81,8 +89,56 @@ section.home div.container-button {
 section.home div.paragraph {
     width: 628px;
     font-size: 16px;
+    margin-bottom: 56px;
 }
 
+/* section episodes */
+section.episodes div.container {
+    padding: 0 100px;
+}
+section.episodes div.episode-container {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.episodes div.episode {
+    height: 232px;
+    width: 584px;
+}
+/* section us */
+section.us div.container {
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+section.us img.image-phone {
+    height: 660px;
+}
+
+section.us  p.paragraph {
+    width: 464px;
+}
+
+section.us div.text-container {
+    margin-left: 64px;
+}
+
+/* section guests */
+section.guests div.guests-container {
+    display: flex;
+}
+section.guests h2 {
+    padding-left: 200px;
+}
+section.guests img.image {
+    height: 354px;
+    width: 480px
+}
+
+/* section news */
 section.news div.container-button {
     width: 345px
 }
