@@ -158,7 +158,7 @@ section.us div.container {
 }
 
 section.us img.image-phone {
-    width: 33,3vh;
+    height: 660px;
 }
 
 section.us  p.paragraph {
@@ -179,7 +179,7 @@ section.guests h2 {
 }
 
 section.guests img.image {
-    height: 364px;
+    width: 33%
 }
 
 /* section subjects */
