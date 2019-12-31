@@ -95,7 +95,7 @@ section.home h1.title {
 }
 
 section.home div.container-button {
-    width: 226px
+    width: 226px;
 }
 
 section.home div.paragraph {
@@ -110,7 +110,15 @@ section.episodes {
     height: 1042px;
     background: linear-gradient(90deg, rgba(0,0,163,1) 35%, rgba(0,0,255,1) 100%);
 }
-section.episodes svg {
+
+section.episodes svg.top-triangle {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vw;
+}
+
+section.episodes svg.bottom-triangle {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -205,8 +213,20 @@ section.subjects p.title-image {
 
 /* section news */
 section.news {
+    position: relative;
     height: 518px;
     background: linear-gradient(90deg, rgba(0,0,163,1) 35%, rgba(0,0,255,1) 100%);
+}
+
+section.news div.container {
+    padding-top: 200px;
+}
+
+section.news svg.top-triangle {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vw;
 }
 
 section.news h2 {
@@ -216,11 +236,11 @@ section.news h2 {
 }
 
 section.news div.container-button {
-    width: 345px
+    width: 345px;
+    margin: auto;
 }
 
 /* section footer */
-
 footer div.container {
     background-color: #EFF0F1;
     height: 30px;
