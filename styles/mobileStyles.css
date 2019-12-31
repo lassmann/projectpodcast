@@ -1,0 +1,54 @@
+
+/*media queries */
+@media (max-width: 640px) {
+    .header-logo {
+        float: left;
+        height: 26px;
+    }
+    .header-container {
+        height: 26px;
+        padding: 11px 20px;
+    }
+
+    nav {
+        display: none;
+    }
+/* section home */
+    section.home div.container {
+        padding-left: 30px;
+        margin-top: 30px;
+    }
+    
+    section.home h1.title {
+        font-weight: normal;
+        font-size: 36px;
+    }
+
+    section.home div.paragraph {
+        width: 80%;
+        font-size: 14px;
+        margin-bottom: 56px;
+    }
+
+    section.episodes div.container {
+        padding: 170px 100px 100px 100px;
+    }
+
+    /* section episodes */
+    section.episodes div.container {
+        padding: 90px 40px 68px 50px;
+    }
+
+    section.episodes div.episode-container {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    section.episodes div.episode {
+        height: 225px;
+        width: 298px;
+    }
+    
+}

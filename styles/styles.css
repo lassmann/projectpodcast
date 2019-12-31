@@ -9,6 +9,7 @@ h1 {
 h2 {
     font-size: 48px;
 }
+
 .line-through {
     text-decoration: line-through;
 }
@@ -46,6 +47,7 @@ nav li {
     float: left;
     margin-right: 48px;
 }
+
 nav li:last-child {
     margin-right: 0;
 }
