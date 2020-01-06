@@ -153,14 +153,22 @@ section.episodes div.episode {
     width: 584px;
 }
 /* section us */
+section.us {
+    height: 1200px;
+    position: relative;
+}
+
 section.us div.container {
-    padding-left: 200px;
+    padding-left: 170px;
     display: flex;
     flex-direction: row;
 }
 
 section.us img.image-phone {
     height: 660px;
+    width: 405px;
+    position: relative;
+    top: -150px;
 }
 
 section.us  p.paragraph {
@@ -168,7 +176,7 @@ section.us  p.paragraph {
 }
 
 section.us div.text-container {
-    margin-left: 64px;
+    margin-left: 20px;
 }
 
 /* section guests */
@@ -188,6 +196,7 @@ section.guests img.image {
 section.subjects {
     height: 400px;
 }
+
 section.subjects h2 {
     font-weight: normal;
     padding-left: 200px;

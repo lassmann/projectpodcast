@@ -1,6 +1,6 @@
 
 /*media queries */
-@media (max-width: 640px) {
+@media (max-width: 1100px) {
     .header-logo {
         float: left;
         height: 26px;
@@ -34,9 +34,30 @@
         padding: 170px 100px 100px 100px;
     }
 
+    /* section guests */
+    section.guests div.guests-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.guests h2 {
+        padding-left: 0px;
+    }
+
+    section.guests img.image {
+        width: auto;
+    }
+
     /* section episodes */
+    section.episodes {
+        height: 1550px;
+    }
     section.episodes div.container {
         padding: 90px 40px 68px 50px;
+    }
+
+    section.episodes h2 {
+        text-align: center;
     }
 
     section.episodes div.episode-container {
@@ -44,11 +65,100 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
     }
 
     section.episodes div.episode {
         height: 225px;
         width: 298px;
     }
+
+
+    section.episodes div.episode {
+        margin-bottom: 50px;
+    }
+
+    section.episodes div.episode:last-child {
+        margin-bottom: 0;
+    }    
+
+    /* section us */
+    section.us {
+        height: 1200px;
+        position: relative;
+    }
     
+    section.us div.container {
+        padding: 0;
+        margin: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section.us img.image-phone {
+        height: 660px;
+        width: 405px;
+        position: relative;
+        top: -150px;
+    }
+    
+    section.us  p.paragraph {
+        width: 464px;
+    }
+    
+    section.us div.text-container {
+        margin-left: 20px;
+    }
+    /* section subjects */
+    section.subjects {
+        height: auto;
+    }
+
+    section.subjects h2 {
+        font-weight: normal;
+        padding-left: 30px;
+        width: 370px;
+    }
+    
+    section.subjects div.container {
+        margin-bottom: 50px;
+    }
+
+    section.subjects div.row-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.subjects div.image-container {
+        text-align: center;
+    }
+
+    section.subjects div.item {
+        height: 130px;
+        width: 260px;
+        margin-bottom: 50px;
+    }
+
+    section.subjects p.title-image {
+        width: 220px;
+        height: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* section footer */
+    footer div.container {
+        background-color: #EFF0F1;
+        height: 30px;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer span.icon {
+        margin-right: 36px;
+    }
 }
