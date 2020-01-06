@@ -209,6 +209,7 @@ section.subjects div.container {
 section.subjects div.row-container {
     padding: 0 200px;
     display: flex;
+    justify-content: space-between;
 }
 
 section.subjects div.image-container {
