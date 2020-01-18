@@ -1,9 +1,37 @@
 
 /*media queries */
-@media (max-width: 1100px) {
+@media only screen and (max-width: 1100px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        padding-left: 20px;
+        text-align: left;
+        width: 100%;
+        display: none;
+        background-color: #0000EC;
+        height: 280px;
+    }
+    .menu a  {
+        display: block;
+        margin: 0;
+        color: white;
+    }
+    #toggle {
+        display: none;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    #toggle:checked:section.home {
+        margin-top: 280px !important;
+    }
     .header-logo {
         float: left;
-        height: 26px;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
     }
     .header-container {
         height: 26px;
