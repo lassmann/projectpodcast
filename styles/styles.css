@@ -119,10 +119,6 @@ label {
     line-height: 70px;
 }
 
-@media only screen and (max-width: 1100px) {
-
-}
-
 /* section home */
 section.home div.container {
     padding-left: 200px;
